@@ -1,0 +1,31 @@
+.row {
+  text-align: center;
+}
+
+.row img {
+  align-self: center;
+  height: 7em;
+}
+
+.row td:nth-child(2) {
+  text-align: left;
+  justify-content: center;
+}
+
+.row td span {
+  color: grey;
+  font-size: small;
+}
+
+.row td div:nth-child(3) {
+  color: darkgray;
+  font-size: large;
+}
+.row td p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.row td:nth-child(5) p {
+  color: darkgreen;
+}
